@@ -4172,7 +4172,8 @@ textarea {
 .mob .main__header {
     -webkit-transform: translate(-50%, 80%);
     -ms-transform: translate(-50%, 80%);
-    transform: translate(-50%, 80%)
+    transform: translate(-50%, 80%);
+    letter-spacing: 0;
 }
 
 .mob .main__desc {
@@ -4232,7 +4233,9 @@ textarea {
 .mob .section-main .hud--main {
     opacity: 1
 }
-
+.mob .main__year{
+    letter-spacing: 0;
+}
 .mob .page-preview .preview-info__video-wrap,
 .mob .page-project .preview-info__video-wrap {
     -webkit-transform: translateY(0);
@@ -7095,7 +7098,7 @@ textarea {
     }
 
     .main__header {
-        font-size: calc(1.725rem + 2.83636vw)
+        font-size: calc(1.725rem + 2.83636vw);
     }
 
     .main__desc {
@@ -7987,7 +7990,6 @@ textarea {
     .about {
         width: 100%
     }
-
     .versus {
         width: 100%;
         margin-left: 0
